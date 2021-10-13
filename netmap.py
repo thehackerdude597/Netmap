@@ -54,10 +54,8 @@ if options == "ncat listener":
     remote_in = input("If you already have a confirmed session type 'yes': ")
     if remote_in == "yes":
         ip_of_session = input("What is the IP of the victim: ")
-        port_of_session = input("What is the port of the victim")
-        start_session = os.system("sudo ncat -v " + ip_of_session + " " + port_of_session)
-        
-                        
+        port_of_session = input("What is the port of the victim: ")
+        start_session = os.system("sudo ncat -v " + ip_of_session + " " + port_of_session)          
 else: print("Not a valid choice, try again")
 
 
