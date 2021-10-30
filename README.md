@@ -2,7 +2,7 @@
 Python script to automate netcat backdoors, and works with nmap throughly.
 
 # Installation
-Please run the setup.py file using cd netmap, python3 setup.py, this is important as the script will not work without it.
+Please run the setup.py file using cd Netmap, python3 setup.py, this is important as the script will not work without it, if you need help run python3 help.py
 
 # Usage
 Please only use this against networks you have permission on.
